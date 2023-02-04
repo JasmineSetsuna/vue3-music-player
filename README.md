@@ -1,6 +1,8 @@
-# Vue 3 + TypeScript + Vite
+# Vue3MusicPlayer
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a signal page that imitate the QQMusic;
+it use [NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi) as back-end to exchange data;
+
 
 ## Recommended IDE Setup
 
