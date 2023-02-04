@@ -10,8 +10,6 @@
 
 ## The appearance of project
 - Full screen
-![chrome-capture-2023-1-4](https://user-images.githubusercontent.com/58674874/216759816-adb3e14c-b41e-4105-b880-1dae681aa5c7.png)
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/58674874/216759934-d4b83bea-b8e1-4da7-81c2-38c9e0bdfcd1.png">
 - Half-screen
-![image](https://user-images.githubusercontent.com/58674874/216759834-4fdd0289-8d1b-4c7b-b84a-11a062156933.png)
-
 <img width="480" alt="image" src="https://user-images.githubusercontent.com/58674874/216759910-ed58aa89-e63d-462f-9b84-0ba4eb7a9340.png">
