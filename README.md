@@ -9,8 +9,8 @@
 - Vue3+TypeScript+Pinia+Element-plus+swiper...
 
 ## The appearance of project
-
+- Full screen
 ![chrome-capture-2023-1-4](https://user-images.githubusercontent.com/58674874/216759816-adb3e14c-b41e-4105-b880-1dae681aa5c7.png)
-
+- Half-screen
 ![image](https://user-images.githubusercontent.com/58674874/216759834-4fdd0289-8d1b-4c7b-b84a-11a062156933.png)
 
