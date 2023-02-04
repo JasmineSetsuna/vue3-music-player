@@ -28,6 +28,9 @@ import Menu from "./components/layout/menu/Menu.vue";
 import Header from "./components/layout/header/Header.vue";
 import Footer from "./components/layout/footer/Footer.vue";
 import PlayList from "./components/layout/playList/PlayList.vue";
+import { userPlayerInit } from "@/stores/player";
+
+userPlayerInit();
 </script>
 
 <style scoped lang="scss">

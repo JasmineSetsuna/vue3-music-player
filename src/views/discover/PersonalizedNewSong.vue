@@ -7,7 +7,7 @@
       class="items"
       @click="throttlePlay(item.id)"
     >
-      <img v-lazyImg="item.picUrl" alt="" />
+      <img v-lazyImg="item.picUrl" alt="" /> 
       <div class="text">
         <div class="name">{{ item.name }}</div>
         <div class="artist">{{ item.song.artists[0].name }}</div>

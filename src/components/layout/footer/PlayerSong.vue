@@ -1,11 +1,11 @@
 <template>
   <div class="player-song">
-    <img :src="playersonginit" alt="" />
+    <img :src="song.al?.picUrl || playersonginit" alt="" />
     <div class="text-xs">
       <div class="text-header">
-        <div class="free-trial" v-if="songUrlFreeTrialInfo > 0">试听</div>
-        <span>{{ "开源云音乐" }}</span>
-        <span>-{{ "Jasmine" }}</span>
+        <div class="free-trial" v-if="songUrl.freeTrialInfo?.end > 0">试听</div>
+        <span>{{ song.name||"开源云音乐" }}</span>
+        <span>-{{ song.ar?.first().name||"Jasmine" }}</span>
       </div>
       <div class="text-main">
         <IconPark :icon="Like" size="18" :stroke-width="3" />
@@ -26,14 +26,12 @@
 
 <script setup lang="ts">
 import { playersonginit } from "@/assets/img";
-import {
-  Like,
-  DownTwo,
-  MoreTwo,
-  Comment,
-} from "@icon-park/vue-next";
+import { usePlayerStore } from "@/stores/player";
+import { toRefs } from "vue";
+import { Like, DownTwo, MoreTwo, Comment } from "@icon-park/vue-next";
 
-const songUrlFreeTrialInfo = 1;
+const { song, songUrl } = toRefs(usePlayerStore());
+
 </script>
 
 <style lang="scss" scoped>
