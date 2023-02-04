@@ -14,3 +14,4 @@
 - Half-screen
 ![image](https://user-images.githubusercontent.com/58674874/216759834-4fdd0289-8d1b-4c7b-b84a-11a062156933.png)
 
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/58674874/216759910-ed58aa89-e63d-462f-9b84-0ba4eb7a9340.png">
