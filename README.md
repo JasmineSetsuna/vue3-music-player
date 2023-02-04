@@ -1,20 +1,16 @@
 # Vue3MusicPlayer
 
-This project is a signal page that imitate the QQMusic;
-it use [NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi) as back-end to exchange data;
+- This project is a signal page that imitate the QQMusic;
+- it use [NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi) as back-end to exchange data;
 
 
-## Recommended IDE Setup
+## Technology Stack
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue3+TypeScript+Pinia+Element-plus+swiper...
 
-## Type Support For `.vue` Imports in TS
+## The appearance of project
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+![chrome-capture-2023-1-4](https://user-images.githubusercontent.com/58674874/216759816-adb3e14c-b41e-4105-b880-1dae681aa5c7.png)
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+![image](https://user-images.githubusercontent.com/58674874/216759834-4fdd0289-8d1b-4c7b-b84a-11a062156933.png)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
